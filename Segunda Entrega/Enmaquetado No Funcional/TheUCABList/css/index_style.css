@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	color: #bcbcbc;
+
+}
+
+.titulo{
+	margin-top: 10px;
+}
+
+.input{
+	color:#000;
+}
+
+div.cuerpo{
+	background-color: #006390;
+	height: 50%;
+	width: 100%;
+}
+
+form.FORM{
+	margin-top: 6%;
+}
+
+div.Usuario{
+	color: #000;
+	font-weight: bold;
+}
+
+div.Contraseña{
+	margin-right: 2.5%;
+	color: #000;
+	font-weight: bold;
+}
+
+.Entrar{
+	margin-top: 25px;
+	margin-left: 1%;
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+	background-color: #000;
+}

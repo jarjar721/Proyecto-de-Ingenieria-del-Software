@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	color: #bcbcbc;
+
+}
+ /* --PARA LA BARRA-- */
+div#logo-principal{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	background-image: url(../img/Listas.png);
+	background-size: 100% 100%;
+	float: left;
+}
+
+p.ML{
+	margin-left: 60px;
+	line-height: 60px;
+}
+
+div#contenedor-general-primero{
+	margin-top: 60px;
+}
+
+div.logo-interior{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	background-image: url(../img/Listas.png);
+	background-size: 100% 100%;
+	float: left;
+}
+
+p.texto{
+	margin-left: 5px;
+	line-height: 60px;
+	float: left;
+}
+
+div.contenedor-general-h{
+	width: 200px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+div.contenedor-general{
+	width: 200px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+div.contenedor-general:hover{
+	background-color: #000;
+}
+
+div#listas{
+	position: absolute;
+	width:170px;
+	height: 100%;
+	background-color: #2f3030;
+	overflow: hidden;
+	-webkit-transition: width 0.5s;
+	float: left;
+}
+
+/*div#listas:hover{
+	width: 170px;
+}*/
+
+.agregar_lista{
+	margin-left: 6%;
+	color: #fff;
+	background-color: #000;
+	width: 150px;
+	height: 30px;
+	margin-top: 170%;
+}
+
+.delete_lista{
+	float:left;
+	margin-top: 25px;
+	margin-left: 13.1%;
+}
+
+/* --AQUI TERMINA LA BARRA-- */
+
+/* --PARA EL HEADER-- */
+div#contenedor-title{
+	width: 500px;
+	text-align: center;
+	float: left;
+}
+
+div.title{
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/Logo.png);
+	background-size: 100% 100%;
+	position:absolute;
+	left:37%;
+	right:;
+	top:10px;
+	bottom:;
+	z-index: 0;
+}
+
+div.texto{
+	line-height: 52px;
+	position:absolute;
+	left:42%;
+	right:;
+	top:10px;
+	bottom:;
+	z-index: 0;
+}
+
+h2.Usuario{
+	position:absolute;
+	left:85%;
+	right:;
+	top:15px;
+	bottom:;
+	z-index: 0;
+}
+
+/*--AQUI TERMINA EL HEADER--*/
+ 
+/* --PARA LAS TAREAS-- */
+div.cuerpo{
+	background-color: #006390;
+	height: 70%;
+	width: 90%;
+	margin-left: 10%;
+}
+
+.todo{
+	width: 85%;
+	max-width: 85%;
+	max-height:30px;
+	height:30px;
+    margin-bottom: 5px;
+    border-style: solid;
+	border-width: 3px;
+	border-color:#000;
+	background-color: #fff;
+}
+
+.todoPrimero{
+	width: 85%;
+	max-width: 85%;
+	max-height:30px;
+	height:30px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    border-style: solid;
+	border-width: 3px;
+	border-color:#000;
+	background-color: #fff;
+}
+
+
+
+p#tarea{
+	margin: 5px;
+	color: 000;
+	float: left;
+}
+
+input#check{
+	margin-top: 9px;
+	margin-right: 2%;
+	-webkit-transform: scale(2); /* Safari y Chrome */
+  	padding: 10px;
+  	float:right;
+}
+
+input#EliminarT{
+	margin-top: 4px;
+	margin-right: 2%;
+  	padding: 1px 3px;
+  	color: red;
+  	float:right;
+}
+
+h2.nLista{
+	margin-left: 5%;
+	float:left;
+}
+
+.agregar{
+	float:right;
+	margin-top:25px;
+	margin-right:8.5%;
+}
+
+.edit{
+	float: right;
+	margin-right: 2%;
+	margin-top: 2px;
+}
+
+.edit_lista{
+	float: left;
+	margin-left: 1%;
+	margin-top: 5px;
+}
