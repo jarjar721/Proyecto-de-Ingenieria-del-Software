@@ -1,0 +1,120 @@
+<!DOCTYPE>
+
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+		<title> THE UCAB LIST </title>
+		<link rel="stylesheet" type="text/css" href="css/Lista_style.css"/>
+	</head>
+
+	<body>
+
+        <div id="listas">
+
+	        <div class="contenedor-general-h">
+	           	<div id="logo-principal"></div>
+	            <p class="ML"><b> Mis listas </b></p>
+	        </div>
+
+	        <div id="contenedor-listas" >
+	            <div id="contenedor-general-primero" class="contenedor-general">
+	                <div id="contenedor-general-primero" class="logo-interior"></div>
+	                <p id="contenedor-general-primero" class="tituloLista">Pizarra</p>
+	            </div>
+            </div>
+
+            <input class="agregar_lista" type="reset" value="Agregar Nueva Lista">
+        
+        </div>
+	
+        <br>
+
+		<div class = "header">
+			<center>
+				<div class="title"></div>
+				<div class="texto">
+				<h1 >THE UCAB LIST</h1>
+				</div>
+			</center>
+            <h2 class="Usuario"><img src="img/User.png" height="25px" width="25px"> Usuario </h2>
+		</div>
+		
+		<br>
+        
+        <br>
+        <br>
+        <br>
+    
+        <div class="cuerpo">
+
+        	<br>
+        	<h2 class="nLista" name="pizarra" > Pizarra </h2>
+        	<!-- <img class="edit_lista" src="img/lapiz.svg" width="20px"> -->
+        	<br>
+
+        	<center>
+	        	<div class="nota-contenedor" style="overflow:auto">
+	        		<h3 id="noHayNotas">No hay notas en la Pizarra</h3>
+				</div>
+			</center>
+
+			<div class="agregar">
+				<img src="img/agregar.png" width="80px">
+			</div>
+
+        </div> 
+
+        <div id="listaModal" class="modal">
+        	<div class="modal-content">
+        		<div class="modal-header">
+        			<span class="closeBtn">&times;</span>
+        			<h2 class="textmodal">Nueva Lista</h2>
+        		</div>
+        		<div class="modal-body">
+        			<form class="textmodal" autocomplete="off">
+						Título:<br>
+						<input id="nombreForm" type="text" name="nombreLista" maxlength="6"><br>
+					</form>
+        		</div>
+        		<div class="modal-footer">
+        			<input class="textmodal" id="agregarLista" type="submit" value="Agregar">
+        		</div>
+        	</div>
+        </div>
+
+        <div id="notaModal" class="modal">
+        	<div class="modal-content">
+        		<div class="modal-header">
+        			<span class="closeBtn">&times;</span>
+        			<h2 id = "tituloModal">Nueva nota</h2>
+        		</div>
+        		<div class="modal-body">
+        			<form autocomplete="off">
+						Título:<br>
+						<input id="nombreForm" type="text" name="nombre"><br>
+						Descripción:<br>
+						<input id="descripcionForm" type="text" name="descripcion">
+					</form>
+        		</div>
+        		<div class="modal-footer">
+        			<input id="agregarNota" type="submit" value="Agregar">
+        			<input id="updateNota" type="submit" value="Actualizar">
+        		</div>
+        	</div>
+        </div>
+
+    	<script src="jquery.js"></script>
+    	<script src="scripts.js"></script>
+
+	</body>
+
+	<br>
+	<br>
+	
+	<footer>
+		<h3 align="center"><B>Creado Por:</B><h3></center>
+        <h4 align="center"> Rafael Jiménez - José Rodrigez -  Thomas Lodato <h4>
+	</footer>
+	
+</html>
